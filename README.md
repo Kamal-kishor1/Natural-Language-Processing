@@ -1,187 +1,174 @@
 # Natural-Language-Processing
 This repository contains the completed projects and practical implementations from my NLP learning journey. It covers core concepts and advanced techniques, focusing on real-world applications.
 
-Goal: Learn practical Natural Language Processing quickly and build real systems, not just models.Outcome: Ability to design, train, evaluate, and deploy modern NLP applications.
 
-Prerequisites
+**Goal:** Learn practical Natural Language Processing quickly and build real systems, not just models.\
+**Outcome:** Ability to design, train, evaluate, and deploy modern NLP applications.
 
-Basic Python (loops, functions, lists, dictionaries)
+---
 
-Basic linear algebra intuition (vectors)
+## Prerequisites
 
-Familiarity with Jupyter Notebook / Google Colab
+- Basic Python (loops, functions, lists, dictionaries)
+- Basic linear algebra intuition (vectors)
+- Familiarity with Jupyter Notebook / Google Colab
 
+Install required libraries:
 
-Week 1 — Foundations of NLP & Machine Learning
+```bash
+pip install numpy pandas matplotlib scikit-learn nltk gensim spacy tensorflow torch transformers datasets
+```
 
-Topics
+---
 
-Tokenization, Lemmatization, Stopwords
+## Week 1 — Foundations of NLP & Machine Learning
 
-Bag of Words, TF‑IDF, N‑grams
+### Topics
 
-Word2Vec (semantic vectors)
+- Tokenization, Lemmatization, Stopwords
+- Bag of Words, TF‑IDF, N‑grams
+- Word2Vec (semantic vectors)
 
-Learning Resources
+### Learning Resources
 
-Text preprocessing playlist
+- Text preprocessing playlist
+- NLTK Book (Ch. 1–3)
+- BoW / TF‑IDF tutorials
+- Word2Vec guides & notebooks
 
-NLTK Book (Ch. 1–3)
+---
 
-BoW / TF‑IDF tutorials
+## Week 2 — Machine Learning → Neural Networks
 
-Word2Vec guides & notebooks
+### Topics
 
-Week 2 — Machine Learning → Neural Networks
+- Logistic Regression & Naive Bayes classification
+- Evaluation metrics (Precision, Recall, F1)
+- Artificial Neural Networks
+- RNN, GRU, LSTM sequence learning
 
-Topics
+### Resources
 
-Logistic Regression & Naive Bayes classification
+- Text classification tutorials
+- ANN notebooks (TensorFlow/Keras)
+- LSTM explanation articles and notebooks
 
-Evaluation metrics (Precision, Recall, F1)
+---
 
-Artificial Neural Networks
+## Week 3 — Advanced Sequence Modeling
 
-RNN, GRU, LSTM sequence learning
+### Topics
 
-Resources
+- Word embeddings (Word2Vec, GloVe, FastText)
+- Bidirectional LSTM
+- Encoder‑Decoder models
+- Attention mechanism
+- Transformer fundamentals
 
-Text classification tutorials
+### Resources
 
-ANN notebooks (TensorFlow/Keras)
+- GloVe documentation
+- Seq2Seq attention notebooks
+- Transformer visual explanations
 
-LSTM explanation articles and notebooks
+---
 
-Week 3 — Advanced Sequence Modeling
+## Week 4 — Transfer Learning with BERT
 
-Topics
+### Topics
 
-Word embeddings (Word2Vec, GloVe, FastText)
+- BERT architecture
+- Pretraining vs fine‑tuning
+- Hugging Face transformers
+- Tokenizers and pipelines
 
-Bidirectional LSTM
+### Resources
 
-Encoder‑Decoder models
+- BERT visual guides
+- Hugging Face course
+- BERT sentiment notebook
 
-Attention mechanism
+---
 
-Transformer fundamentals
+## Week 5 — Hugging Face Ecosystem
 
-Resources
-
-GloVe documentation
-
-Seq2Seq attention notebooks
-
-Transformer visual explanations
-
-Week 4 — Transfer Learning with BERT
-
-Topics
-
-BERT architecture
-
-Pretraining vs fine‑tuning
-
-Hugging Face transformers
-
-Tokenizers and pipelines
-
-Resources
-
-BERT visual guides
-
-Hugging Face course
-
-BERT sentiment notebook
-
-Week 5 — Hugging Face Ecosystem
-
-Core Ideas
+### Core Ideas
 
 Modern NLP is tooling‑driven
 
-Concepts
+### Concepts
 
-Tokenizers
+- Tokenizers
+- Datasets abstraction
+- Trainer vs custom training loop
 
-Datasets abstraction
-
-Trainer vs custom training loop
-
-Hands‑On
+### Hands‑On
 
 Build full training pipeline (dataset → model → evaluation)
 
-Mini Project
+### Mini Project
 
-Customer Feedback Classifier (Reproducible experiment configs)
+**Customer Feedback Classifier (Reproducible experiment configs)**
 
-Week 6 — Retrieval & Semantic Search
+---
 
-Concepts
+## Week 6 — Retrieval & Semantic Search
 
-Bi‑encoders vs cross‑encoders
+### Concepts
 
-Embedding similarity search
+- Bi‑encoders vs cross‑encoders
+- Embedding similarity search
+- ANN search (FAISS)
+- Precision vs Recall tradeoffs
 
-ANN search (FAISS)
+### Mini Project
 
-Precision vs Recall tradeoffs
+**Semantic Search Engine**
 
-Mini Project
+- Sentence embeddings
+- Document ranking
 
-Semantic Search Engine
+---
 
-Sentence embeddings
+## Week 7 — QA, Summarization & Chat Systems
 
-Document ranking
+### Concepts
 
-Week 7 — QA, Summarization & Chat Systems
+- Extractive vs generative QA
+- Hallucinations
+- Prompt sensitivity
 
-Concepts
+### Mini Project
 
-Extractive vs generative QA
+**Document Question Answering System**
 
-Hallucinations
+---
 
-Prompt sensitivity
+## Week 8 — Capstone Project (End‑to‑End NLP System)
 
-Mini Project
+### Build Complete Pipeline
 
-Document Question Answering System
+- Problem definition
+- Dataset preparation
+- Baseline → transformer
+- Error analysis
+- Deployment‑ready architecture
 
-Week 8 — Capstone Project (End‑to‑End NLP System)
+### Example Capstones
 
-Build Complete Pipeline
+- Resume ranking system
+- Customer support assistant
+- Domain‑specific search engine
 
-Problem definition
+---
 
-Dataset preparation
-
-Baseline → transformer
-
-Error analysis
-
-Deployment‑ready architecture
-
-Example Capstones
-
-Resume ranking system
-
-Customer support assistant
-
-Domain‑specific search engine
-
-Final Learning Outcomes
+## Final Learning Outcomes
 
 After completing this roadmap you will be able to:
 
-Think in pipelines instead of isolated models
+- Think in pipelines instead of isolated models
+- Debug NLP failures systematically
+- Choose models based on constraints (latency, data, cost)
+- Use Hugging Face + PyTorch effectively
+- Design production‑ready NLP systems
 
-Debug NLP failures systematically
-
-Choose models based on constraints (latency, data, cost)
-
-Use Hugging Face + PyTorch effectively
-
-Design production‑ready NLP systems

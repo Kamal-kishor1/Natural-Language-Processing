@@ -27,14 +27,12 @@ pip install numpy pandas matplotlib scikit-learn nltk gensim spacy tensorflow to
 
 - Tokenization, Lemmatization, Stopwords
 - Bag of Words, TF‑IDF, N‑grams
-- Word2Vec (semantic vectors)
 
 ### Learning Resources
 
 - Text preprocessing playlist
 - NLTK Book (Ch. 1–3)
 - BoW / TF‑IDF tutorials
-- Word2Vec guides & notebooks
 
 ---
 

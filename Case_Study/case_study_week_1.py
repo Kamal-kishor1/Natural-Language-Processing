@@ -12,3 +12,8 @@
 5. Remove excessive punctuation
 6. Keep negations'''
 
+import numpy
+from collections import Counter
+import matplotlib.pyplot as plt
+import spacy
+

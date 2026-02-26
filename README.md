@@ -36,7 +36,24 @@ pip install numpy pandas matplotlib scikit-learn nltk gensim spacy tensorflow to
 
 ---
 
-## Week 2 — Machine Learning → Neural Networks
+## Week 2 — Word Embedding and Similarity
+
+### Topics
+
+- Dense vector encoding meaning
+- Distributional hypothesis
+- Word2vec, Clove, Fasttext
+- Embedding geometry
+
+### Notebook
+
+- Embedding comparison
+- word2vec, clove, fasttext
+- compute similarity and analogies
+
+---
+
+## Week 3 — Machine Learning → Neural Networks
 
 ### Topics
 
@@ -53,11 +70,10 @@ pip install numpy pandas matplotlib scikit-learn nltk gensim spacy tensorflow to
 
 ---
 
-## Week 3 — Advanced Sequence Modeling
+## Week 4 — Advanced Sequence Modeling
 
 ### Topics
 
-- Word embeddings (Word2Vec, GloVe, FastText)
 - Bidirectional LSTM
 - Encoder‑Decoder models
 - Attention mechanism
@@ -65,13 +81,13 @@ pip install numpy pandas matplotlib scikit-learn nltk gensim spacy tensorflow to
 
 ### Resources
 
-- GloVe documentation
+- Documentation
 - Seq2Seq attention notebooks
 - Transformer visual explanations
 
 ---
 
-## Week 4 — Transfer Learning with BERT
+## Week 5 — Transfer Learning with BERT
 
 ### Topics
 
@@ -88,7 +104,7 @@ pip install numpy pandas matplotlib scikit-learn nltk gensim spacy tensorflow to
 
 ---
 
-## Week 5 — Hugging Face Ecosystem
+## Week 6 — Hugging Face Ecosystem
 
 ### Core Ideas
 
@@ -110,7 +126,7 @@ Build full training pipeline (dataset → model → evaluation)
 
 ---
 
-## Week 6 — Retrieval & Semantic Search
+## Week 7 — Retrieval & Semantic Search
 
 ### Concepts
 
@@ -128,7 +144,7 @@ Build full training pipeline (dataset → model → evaluation)
 
 ---
 
-## Week 7 — QA, Summarization & Chat Systems
+## Week 8 — QA, Summarization & Chat Systems
 
 ### Concepts
 
@@ -142,7 +158,7 @@ Build full training pipeline (dataset → model → evaluation)
 
 ---
 
-## Week 8 — Capstone Project (End‑to‑End NLP System)
+## Week 9 — Capstone Project (End‑to‑End NLP System)
 
 ### Build Complete Pipeline
 

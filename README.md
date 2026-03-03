@@ -59,13 +59,12 @@ pip install numpy pandas matplotlib scikit-learn nltk gensim spacy tensorflow to
 
 - Logistic Regression & Naive Bayes classification
 - Evaluation metrics (Precision, Recall, F1)
-- Artificial Neural Networks
 - RNN, GRU, LSTM sequence learning
 
 ### Resources
 
 - Text classification tutorials
-- ANN notebooks (TensorFlow/Keras)
+- Notebooks (TensorFlow/Keras)
 - LSTM explanation articles and notebooks
 
 ---
